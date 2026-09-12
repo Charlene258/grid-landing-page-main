@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Grid landing page</title>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="logo">
+      <a href="#">
+        <span class="logo-dot" aria-hidden="true"></span>
+        <span>Bridge Collective</span>
+      </a>
+    </div>
+
+    <button type="button" class="menu-btn" aria-label="Toggle navigation menu" aria-expanded="false"
+      aria-controls="primary-navigation">
+      <img src="assets/images/icon-menu.svg" alt="" aria-hidden="true">
+    </button>
+
+    <nav id="primary-navigation" class="nav-drawer" aria-label="Primary Navigation">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="#about" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#about" class="nav-link">Our Work</a>
+        </li>
+        <li class="nav-item">
+          <a href="#about" class="nav-link">Partners</a>
+        </li>
+        <li class="nav-item">
+          <a href="#about" class="nav-link">Annual Report</a>
+        </li>
+        <li class="nav-item">
+          <a href="#about" class="nav-link">Donate</a>
+        </li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="hero-layout">
+    <section class="hero-intro">
+      <h1 class="hero-title">A classroom for every child.</h1>
+      <p class="hero-description">
+        We fund the schools, train the teachers, and measure what works — so every child we reach today becomes a
+        graduate
+        tomorrow.
+      </p>
+    </section>
+
+    <section class="hero-stats" aria-label="Key Impact Metrics">
+      <ul class="stats-grid">
+
+        <li class="stat-card">
+          <div class="stat-header">
+            <img src="assets/images/icon-sparkle.svg" alt="" aria-hidden="true">
+            <p class="stat-number">2.4M</p>
+          </div>
+
+          <div class="stat-body">
+            <h2 class="stat-label">Students reached</h2>
+            <p class="stat-subtext">Across 31 countries since 2011.</p>
+          </div>
+        </li>
+
+        <li class="stat-card">
+          <div class="stat-header">
+            <img src="assets/images/icon-plus.svg" alt="" aria-hidden="true">
+            <p class="stat-number">1,284</p>
+          </div>
+
+          <div class="stat-body">
+            <h2 class="stat-label">Schools partnered</h2>
+            <p class="stat-subtext">In 14 countries, from Kenya to Guatemala.</p>
+          </div>
+        </li>
+
+        <li class="stat-card">
+          <div class="stat-header">
+            <img src="assets/images/icon-arrow-right.svg" alt="" aria-hidden="true">
+            <p class="stat-number">38K</p>
+          </div>
+
+          <div class="stat-body">
+            <h2 class="stat-label">Teachers trained</h2>
+            <p class="stat-subtext">Equipped with modern tools and methodology.</p>
+          </div>
+        </li>
+
+        <li class="stat-card">
+          <div class="stat-header">
+            <img src="assets/images/icon-trending-up.svg" alt="" aria-hidden="true">
+            <p class="stat-number">3.1x</p>
+          </div>
+
+          <div class="stat-body">
+            <h2 class="stat-label">Graduation lift</h2>
+            <p class="stat-subtext">Partner schools outperform national averages 3x.</p>
+          </div>
+        </li>
+
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p class="copyright">&copy; 2026 Bridge Collective</p>
+    <p class="charity-number">Registered charity 12345678</p>
+  </footer>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
